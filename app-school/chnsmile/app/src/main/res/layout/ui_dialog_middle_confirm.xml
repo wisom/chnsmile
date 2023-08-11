@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/ui_dialog_bg_round_corner"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rl_image_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/cccx_ui_middle_dialog_close"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:src="@drawable/ui_common_icon_close_small"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/cccx_ui_middle_dialog_icon"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="19dp"
+                android:visibility="visible" />
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/cccx_ui_middle_dialog_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginRight="30dp"
+            android:lineSpacingMultiplier="1.2"
+            android:text="title"
+            android:textColor="#44444B"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/cccx_ui_middle_dialog_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="30dp"
+            android:lineSpacingMultiplier="1.2"
+            android:textColor="#88888E"
+            android:textSize="13dp"
+            tools:text="#FF9B9BA5我们很重视您的使用体验，非常抱歉给您带来不便！" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="24dp"
+            android:background="#FFDDDEE1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/cccx_ui_middle_dialog_tv_left"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/ui_dialog_left_press_shape"
+                android:gravity="center"
+                android:textColor="#88888E"
+                android:textSize="15dp"
+                tools:text="取消" />
+
+            <View
+                android:id="@+id/cccx_ui_middle_dialog_bottom_divider"
+                android:layout_width="1px"
+                android:layout_height="match_parent"
+                android:background="#FFDDDEE1" />
+
+            <TextView
+                android:id="@+id/cccx_ui_middle_dialog_tv_right"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/ui_dialog_right_press_shape"
+                android:gravity="center"
+                android:textColor="#FF00BB2C"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                tools:text="確定" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

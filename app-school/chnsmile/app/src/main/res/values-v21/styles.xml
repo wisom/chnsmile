@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <style name="ChnSmaleAppTheme" parent="ChnSmaleAppTheme.Base">
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+
+        <item name="android:statusBarColor">@color/black</item>
+        <!--底部导航栏-->
+        <item name="android:navigationBarColor">@color/black</item>
+
+        <item name="android:forceDarkAllowed" ns1:targetApi="29">false</item>
+    </style>
+</resources>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/ui_dialog_much_character"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:id="@+id/platform_home_protocol_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginRight="24dp"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:textColor="#43434A"
+                    android:textSize="17dp"
+                    android:textStyle="bold"
+                    tools:text="title" />
+
+
+                <ImageView
+                    android:id="@+id/iv_right_close"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="12dp"
+                    android:src="@drawable/ui_common_icon_close_small" />
+
+            </RelativeLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/ui_gray_4_color" />
+
+            <ScrollView
+                android:id="@+id/platform_home_protocol_scrollview"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:minHeight="96dp"
+                android:overScrollMode="never"
+                android:paddingTop="12dp"
+                android:paddingBottom="12dp">
+
+                <TextView
+                    android:id="@+id/platform_home_protocol_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginRight="24dp"
+                    android:letterSpacing="0"
+                    android:lineSpacingExtra="5dp"
+                    android:textColor="#88888E"
+                    android:textSize="13dp" />
+            </ScrollView>
+
+            <View
+                android:id="@+id/v_gray_line"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/ui_gray_4_color" />
+
+
+            <LinearLayout
+                android:id="@+id/ll_vertical_button_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/platform_home_protocol_review"
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:background="@drawable/ui_dialog_much_character_press_shape"
+                    android:gravity="center"
+                    android:textColor="#666670"
+                    android:textSize="15dp"
+                    tools:text="副按钮" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/ui_gray_4_color" />
+
+                <TextView
+                    android:id="@+id/platform_home_protocol_confirm"
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:background="@drawable/ui_dialog_center_press_shape"
+                    android:gravity="center"
+                    android:textColor="#00BB2C"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    tools:text="主按钮" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll_horizontal_button_container"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/tv_horizontal_subtitle"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/ui_dialog_left_press_shape"
+                    android:gravity="center"
+                    android:textColor="#666670"
+                    android:textSize="15dp"
+                    tools:text="副按钮" />
+
+                <View
+                    android:layout_width="0.5dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/ui_gray_4_color" />
+
+                <TextView
+                    android:id="@+id/tv_horizontal_title"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/ui_dialog_right_press_shape"
+                    android:gravity="center"
+                    android:textColor="#00BB2C"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    tools:text="主按钮" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+        </View>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

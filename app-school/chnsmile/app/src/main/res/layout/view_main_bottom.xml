@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="#ffffff"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/tab_home"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_home"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginTop="3dp"
+            android:contentDescription="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/selector_home" />
+
+        <com.icefire.chnsmile.views.BadgeTextView
+            android:id="@+id/tv_badge_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-6dp"
+            android:layout_marginTop="0dp"
+            android:layout_toRightOf="@+id/iv_home"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/tab_home_text"
+            style="@style/home_bottom_tab_txt_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/tab_home"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/iv_home"
+            android:textColor="@color/selector_home_item"
+            android:textSize="10sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/tab_news"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_news"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginTop="3dp"
+            android:scaleType="fitXY"
+            android:contentDescription="@null"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/selector_news" />
+
+        <com.icefire.chnsmile.views.BadgeTextView
+            android:id="@+id/tv_badge_news"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-6dp"
+            android:layout_marginTop="0dp"
+            android:layout_toRightOf="@+id/iv_news"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/tab_news_text"
+            style="@style/home_bottom_tab_txt_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@+id/iv_news"
+            android:layout_centerHorizontal="true"
+            android:text="@string/tab_news"
+            android:textColor="@color/selector_home_item"
+            android:textSize="10sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/tab_message"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/tab_message_icon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginTop="3dp"
+            android:contentDescription="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/selector_message" />
+
+        <com.icefire.chnsmile.views.BadgeTextView
+            android:id="@+id/tv_badge_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-6dp"
+            android:layout_marginTop="0dp"
+            android:layout_toRightOf="@+id/tab_message_icon"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/tab_message_text"
+            style="@style/home_bottom_tab_txt_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@+id/tab_message_icon"
+            android:layout_centerHorizontal="true"
+            android:text="@string/tab_message"
+            android:textColor="@color/selector_home_item"
+            android:textSize="10sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/tab_contacts"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_contact"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginTop="3dp"
+            android:scaleType="fitXY"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@null"
+            android:src="@drawable/selector_contact" />
+
+        <com.icefire.chnsmile.views.BadgeTextView
+            android:id="@+id/tv_badge_contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-6dp"
+            android:layout_marginTop="0dp"
+            android:layout_toRightOf="@+id/iv_contact"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/tab_contact_text"
+            style="@style/home_bottom_tab_txt_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@+id/iv_contact"
+            android:layout_centerHorizontal="true"
+            android:text="@string/tab_contacts"
+            android:textColor="@color/selector_home_item"
+            android:textSize="10sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/tab_mine"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_mine"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginTop="3dp"
+            android:scaleType="fitXY"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@null"
+            android:src="@drawable/selector_mine" />
+
+        <com.icefire.chnsmile.views.BadgeTextView
+            android:id="@+id/tv_badge_mine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-6dp"
+            android:layout_marginTop="0dp"
+            android:layout_toRightOf="@+id/iv_mine"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/tab_mine_text"
+            style="@style/home_bottom_tab_txt_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/tab_mine"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/iv_mine"
+            android:textColor="@color/selector_home_item"
+            android:textSize="10sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

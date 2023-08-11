@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/.ios/.symlinks/plugins/flutter_plugin_record/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/.ios/.symlinks/plugins/flutter_plugin_record/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/.ios/.symlinks/plugins/flutter_plugin_record/build" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/.ios/.symlinks/plugins/flutter_boost/example_new/build" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/.ios/.symlinks/plugins/flutter_boost/example_new/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/.ios/.symlinks/plugins/flutter_boost/example_new/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/.ios/.symlinks/plugins/flutter_plugin_record/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/.ios/.symlinks/plugins/flutter_plugin_record/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/.ios/.symlinks/plugins/flutter_plugin_record/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/.ios/.symlinks/plugins/path_provider_foundation/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/.ios/.symlinks/plugins/path_provider_foundation/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/.ios/.symlinks/plugins/path_provider_foundation/build" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/build" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/.ios/.symlinks/plugins/file_picker/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/.ios/.symlinks/plugins/file_picker/build" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/.ios/.symlinks/plugins/file_picker/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/.ios/.symlinks/plugins/fluttertoast/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/.ios/.symlinks/plugins/fluttertoast/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/.ios/.symlinks/plugins/fluttertoast/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/.ios/.symlinks/plugins/file_picker/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/.ios/.symlinks/plugins/file_picker/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/.ios/.symlinks/plugins/file_picker/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/component/hi_cache/build" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/component/hi_cache/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/component/hi_cache/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/.ios/.symlinks/plugins/fluttertoast/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/.ios/.symlinks/plugins/fluttertoast/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/.ios/.symlinks/plugins/fluttertoast/build" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/.ios/.symlinks/plugins/path_provider_foundation/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/.ios/.symlinks/plugins/path_provider_foundation/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/.ios/.symlinks/plugins/path_provider_foundation/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/.ios/.symlinks/plugins/flutter_image_compress/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/.ios/.symlinks/plugins/flutter_image_compress/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/.ios/.symlinks/plugins/flutter_image_compress/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/.ios/.symlinks/plugins/flutter_boost/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/.ios/.symlinks/plugins/flutter_boost/build" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/.ios/.symlinks/plugins/flutter_boost/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/.ios/.symlinks/plugins/flutter_image_compress/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/.ios/.symlinks/plugins/flutter_image_compress/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/.ios/.symlinks/plugins/flutter_image_compress/build" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/.ios/.symlinks/plugins/audioplayers/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/.ios/.symlinks/plugins/audioplayers/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/.ios/.symlinks/plugins/audioplayers/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/.ios/.symlinks/plugins/flutter_boost/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/.ios/.symlinks/plugins/flutter_boost/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/.ios/.symlinks/plugins/flutter_boost/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/.ios/.symlinks/plugins/shared_preferences_foundation/build" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/.ios/.symlinks/plugins/shared_preferences_foundation/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/.ios/.symlinks/plugins/shared_preferences_foundation/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/lib/flutter_sound_platform_interface/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/lib/flutter_sound_platform_interface/build" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/lib/flutter_sound_platform_interface/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/component/hi_base/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/component/hi_base/build" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/component/hi_base/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/.ios/.symlinks/plugins/shared_preferences_foundation/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/.ios/.symlinks/plugins/shared_preferences_foundation/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/.ios/.symlinks/plugins/shared_preferences_foundation/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/.ios/.symlinks/plugins/audioplayers/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/.ios/.symlinks/plugins/audioplayers/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/.ios/.symlinks/plugins/audioplayers/build" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/.ios/.symlinks/plugins/sqflite/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/.ios/.symlinks/plugins/sqflite/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/.ios/.symlinks/plugins/sqflite/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/.ios/.symlinks/plugins/sqflite/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/.ios/.symlinks/plugins/sqflite/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/chnsmile_flutter/.ios/.symlinks/plugins/sqflite/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

@@ -1,0 +1,101 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="ChnSmaleAppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/ui_brand_color</item>
+        <item name="colorPrimaryDark">@color/transparent</item>
+        <item name="colorAccent">@color/ui_brand_color</item>
+    </style>
+
+
+    <style name="ChnSmaleAppTheme" parent="ChnSmaleAppTheme.Base">
+    </style>
+
+    <style name="AnimationActivity" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/act_start_new_page_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/act_start_current_page_exit</item>
+        <item name="android:activityCloseEnterAnimation">@anim/act_finish_old_page_enter</item>
+        <item name="android:activityCloseExitAnimation">@anim/act_finish_current_page_exit</item>
+    </style>
+
+    <style name="SplashTheme" parent="ChnSmaleAppTheme">
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowBackground">@drawable/load_img</item>
+    </style>
+
+    <!-- 底部弹窗的统一动画样式 -->
+    <style name="animstyle_ui_bottom_dialog" parent="android:Animation">
+         <item name="android:windowEnterAnimation">@anim/ui_bottom_dialog_anim_in</item>
+        <item name="android:windowExitAnimation">@anim/ui_bottom_dialog_anim_out</item>
+    </style>
+
+    <style name="animstyle_ui_top_dialog" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/top_dialog_anim_in</item>
+        <item name="android:windowExitAnimation">@anim/top_dialog_anim_out</item>
+    </style>
+
+    <!--包含dim 的统一dialog -->
+    <style name="ui_dialog" parent="@android:style/Theme.Holo.Dialog">
+        <!-- 是否有边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!--是否在悬浮Activity之上  -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!--阴影  -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!--背景透明-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+
+    </style>
+
+    <!--没有dim 的统一的dialog -->
+    <style name="ui_no_dim_dialog" parent="@style/ui_dialog">
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <!-- 中间弹窗的统一动画样式 -->
+    <style name="animstyle_ui_middle_dialog" parent="android:Animation">
+        <!--<item name="android:windowEnterAnimation">@anim/cccx_ui_middle_dialog_anim_in</item>-->
+        <item name="android:windowExitAnimation">@anim/ui_middle_dialog_anim_out</item>
+    </style>
+
+    <style name="home_bottom_tab_txt_style">
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <!-- Contact -->
+    <style name="ContactTextView">
+        <item name="android:padding">8dp</item>
+        <item name="android:textColor">@color/ui_gray_1_color</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="ContactListView">
+        <item name="android:divider">@color/ui_gray_3_color</item>
+        <item name="android:dividerHeight">0.5dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:listSelector">@drawable/list_view_selector</item>
+    </style>
+
+    <!-- 通用Activity主题 -->
+    <style name="CommonActivity" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowAnimationStyle">@style/CommonActivity.Anim</item>
+    </style>
+
+    <!-- Activity通用进入退出动画 -->
+    <style name="CommonActivity.Anim" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:activityOpenEnterAnimation">@anim/activity_right_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/activity_left_exit</item>
+        <item name="android:activityCloseExitAnimation">@anim/activity_right_exit</item>
+        <item name="android:activityCloseEnterAnimation">@anim/activity_left_enter</item>
+    </style>
+</resources>

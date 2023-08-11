@@ -1,0 +1,75 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    repositories {
+        maven { url 'https://dl.bintray.com/umsdk/release' }
+        maven { url 'https://maven.aliyun.com/repository/google' }
+        maven { url 'https://maven.aliyun.com/repository/jcenter' }
+        maven { url 'https://maven.aliyun.com/nexus/content/groups/public' }
+        maven { url 'https://jitpack.io' }
+        mavenLocal()
+        mavenCentral()
+        maven {
+            url "https://mvn.getui.com/nexus/content/repositories/releases/"
+        }
+        maven {url 'https://developer.huawei.com/repo/'}
+        maven {
+            url 'https://maven.columbus.heytapmobi.com/repository/releases/'
+            credentials {
+                username 'nexus'
+                password 'c0b08da17e3ec36c3870fed674a0bcb36abc2e23'
+            }
+        }
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:4.1.0'
+        classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
+        classpath "com.alibaba:arouter-register:1.0.2"
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+        classpath 'com.huawei.agconnect:agcp:1.6.0.300'
+    }
+}
+
+allprojects {
+    repositories {
+        maven { url 'https://maven.aliyun.com/repository/google' }
+        maven { url 'https://maven.aliyun.com/repository/jcenter' }
+        maven { url 'https://maven.aliyun.com/nexus/content/groups/public' }
+        maven { url 'https://jitpack.io' }
+        mavenLocal()
+        mavenCentral()
+        maven {
+            url "https://mvn.getui.com/nexus/content/repositories/releases/"
+        }
+        maven {url 'https://developer.huawei.com/repo/'}
+        maven {
+            url 'https://maven.columbus.heytapmobi.com/repository/releases/'
+            credentials {
+                username 'nexus'
+                password 'c0b08da17e3ec36c3870fed674a0bcb36abc2e23'
+            }
+        }
+        google()
+        jcenter()
+    }
+}
+
+ext {
+    minSdkVersion = 21
+    targetSdkVersion = 33
+    compileSdkVersion = 33
+    buildToolsVersion = '30.0.2'
+
+
+    GETUI_APP_ID = "GHfwFVWz5q7DpzLAmSqo12"
+    HUAWEI_APP_ID = "107296401"
+    XIAOMI_APP_ID  = "2882303761520178783"
+    XIAOMI_APP_KEY = "5862017825783"
+    OPPO_APP_KEY = "9cbc47721d494ef0a7c45a5711c12308"
+    OPPO_APP_SECRET = "0a102db42f6543879319fcfbbaafc3c9"
+    VIVO_APP_ID    = "105602374"
+    VIVO_APP_KEY   = "4218ad05300b6df58ab7e9bdb1be88b5"
+    HONOR_APP_ID   = "104407926"
+}

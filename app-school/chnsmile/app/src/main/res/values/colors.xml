@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#E31436</color>
+    <color name="colorPrimary">#00B0F0</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">@android:color/transparent</color>
+    <color name="pull_refresh_textview">#000000</color>
+    <color name="gold">#FFD700</color> <!-- 金色 -->
+
+    <color name="ui_brand_bg_color">#FFF7F7F7</color>
+    <color name="ui_brand_text_color">#FF797979</color>
+
+    <color name="ui_btn_selected">#00B0F0</color>
+    <color name="ui_btn_select">#08B0F0</color>
+    <color name="ui_btn_select_green">#09BB07</color>
+    <color name="ui_btn_disabled">#C6C6CC</color>
+
+    <!--品牌色start-->
+    <!--颜色/品牌色/brand品牌绿-->
+    <color name="ui_brand_color">#FF00B0F0</color>
+    <color name="ui_default_color">#7D7D7D</color>
+    <!--品牌色end-->
+
+    <!--辅助色start-->
+    <!--颜色/辅助色/blue蓝色-->
+    <color name="ui_subcolor_1_color">#6699EE</color>
+    <!--颜色/辅助色/orange橙色-->
+    <color name="ui_subcolor_2_color">#FF991A</color>
+    <!--颜色/辅助色/cyan青绿-->
+    <color name="ui_subcolor_3_color">#17BB88</color>
+    <!--颜色/辅助色/red红色-->
+    <color name="ui_subcolor_4_color">#E76A6A</color>
+    <!--颜色/辅助色/purple紫灰-->
+    <color name="ui_subcolor_5_color">#9393B4</color>
+    <!--辅助色end-->
+
+    <!--强调色start-->
+    <!--颜色/强调色/error错误-->
+    <color name="ui_error_color">#EE666A</color>
+    <!--颜色/强调色/warning提醒-->
+    <color name="ui_warning_color">#FFBF00</color>
+    <!--颜色/强调色/success成功-->
+    <color name="ui_success_color">#00BB2C</color>
+    <!--颜色/强调色/link链接-->
+    <color name="ui_link_color">#00BB2C</color>
+    <!--强调色end-->
+
+    <!--中性色start-->
+    <!--颜色/中性色/gray-1导航栏-->
+    <color name="ui_gray_1_color">#28282D</color>
+    <!--颜色/中性色/gray-2标题-->
+    <color name="ui_gray_2_color">#44444B</color>
+    <!--颜色/中性色/gray-3正文-->
+    <color name="ui_gray_3_color">#666670</color>
+    <!--颜色/中性色/gray-4次要信息-->
+    <color name="ui_gray_4_color">#88888E</color>
+    <!--颜色/中性色/gray-5分割线-->
+    <color name="ui_gray_5_color">#D0D0D2</color>
+    <!--颜色/中性色/gray-6说明文字-->
+    <color name="ui_gray_6_color">#E7E7E8</color>
+    <!--颜色/中性色/gray-7输入框-->
+    <color name="ui_gray_7_color">#F1F2F5</color>
+    <!--颜色/中性色/gray-8背景-->
+    <color name="ui_gray_8_color">#F6F7F9</color>
+    <!--颜色/中性色/gray-9白色-->
+    <color name="ui_gray_9_color">#FFFFFF</color>
+    <!--中性色end-->
+
+    <!-- 按钮不可点击颜色 -->
+    <color name="ui_green_button_disabled">#9FAAB6</color>
+    <!-- 按钮默认颜色 -->
+    <color name="ui_green_button_normal">#00BB2C</color>
+    <!-- 按钮按下颜色 -->
+    <color name="ui_green_button_pressed">#00A827</color>
+
+    <!-- 按钮默认颜色 -->
+    <color name="ui_border_green_button_normal">#FFFFFF</color>
+    <!-- 按钮按下颜色 -->
+    <color name="ui_border_green_button_pressed">#F0FBF3</color>
+
+    <color name="ui_border_gray_1_color">#7FAAAAB3</color>
+    <color name="ui_border_gray_2_color">#80AAAAB3</color>
+    <color name="ui_border_gray_3_color">#FFE5E5E5</color>
+
+    <color name="app_list_pressed">#fff3f3f3</color>
+    <color name="app_line_divider">#ddb8b8b8</color>
+    <color name="contacts_separtor_color">#ffe1eaf6</color>
+</resources>

@@ -1,0 +1,3 @@
+class EventNotice {
+  String formId;
+}
